@@ -12,7 +12,7 @@ local rsa_public_key, rsa_priv_key, err = rsa:generate_rsa_keys(2048)
 if not rsa_public_key then
     error('generate rsa keys err: ', err)
 end
-local path = "/Users/legenove/Desktop/MyLearnWorkSpace/spring/lua_app/lua/gytre/"
+local path = "..."
 
 local public_file = io.open(path .. key_name .. "_public_key.pem", "r")
 if public_file then
