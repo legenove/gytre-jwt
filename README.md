@@ -46,3 +46,8 @@ share_data:set('JWT_ALGORITHM', 'HS512') --HS256, HS384, HS512, RS256
 
 ### test_jwt.lua -.-
 see the [code](https://github.com/legenove/gytre-jwt/blob/master/gytre/test_jwt.lua)
+
+#  reference
+[luajwt](https://github.com/x25/luajwt)
+
+[lua-resty-rsa](https://github.com/doujiang24/lua-resty-rsa)
