@@ -40,7 +40,7 @@ ngx.log(ngx.ERR, "=======finish rsa key initial=======")
 share_data:set('JWT_SECRET_KEY', 'secret_key')
 share_data:set('JWT_TTL', '60')
 share_data:set('JWT_REFRESH_TTL', '30240')
-share_data:set('JWT_ALGORITHM', 'HS512')
+share_data:set('JWT_ALGORITHM', 'HS512') --HS256, HS384, HS512, RS256
 
 ```
 
